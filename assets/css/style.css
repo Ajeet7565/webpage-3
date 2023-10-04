@@ -1,0 +1,122 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* Top Header Section Start */
+
+header{
+    width: 100vw;
+    height: 40px;
+    padding: 0px 5px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    background: #022D7C;
+    justify-content: space-between;
+}
+header h2{
+    font-weight:normal;
+    font-size: 20px;
+}
+/* /Top Header Section End */
+
+/* Banner Section Start */
+.banner{
+    width: 100%;
+    height: 600px;
+    color: #fff;
+    display: flex;
+    padding: 0px 100px;
+  align-items: center;
+    justify-content: space-between;
+  background:url(../img/banner\ .jpg)no-repeat;
+  background-size: cover;
+}
+.banner h1{
+font-size: 55px;
+font-weight: normal;
+}
+.banner h1 span{
+    font-size: 75px;
+    font-weight:600 ;
+    display: block;
+}
+.banner aside{
+    padding: 20px;
+    border-radius: 7px;
+    text-align: center;
+    background: #022D7C;
+}
+
+.banner aside input[type],
+.banner aside textarea,
+.banner aside button{
+     
+    width: 100%;
+    margin:5px;
+    height: 50px;
+    
+    text-align: center;
+   
+}
+.banner aside button{
+    background: #00FFFF;
+    border: none;
+}
+/* Banner Section End */
+
+/* Feature Section Start */
+.feature{
+    width: 100%;
+    height: auto;
+    color: #022D7C;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 100px;
+    text-align: center;
+}
+.feature div{
+    width: 30%;
+    height: 500px;
+}
+.feature div img{
+    width: 100%;
+    height:200px
+    
+}
+.feature p{
+text-align: justify;
+margin-top: 5px;
+}
+.feature div h2{
+    text-align:left;
+    font-size: 30px;
+
+}
+/* Feature Section End */
+
+/* About us Section Start */
+.about{
+    width: 100%;
+    height: auto;
+    color: #fff;
+    background: #022D7C;
+    text-align: center;
+    padding: 50px 120px;
+    margin-top: -100px;
+}
+.about button{
+    width: 250px;
+    height: 30px;
+    margin-top: 18px;
+    background: none;
+    color: #fff;
+    border-color: #fff;
+}
+.about h2{
+    font-size: 30px;
+    font-weight: 550;
+    padding: 0px 10px;
+}
+/* About us Section End */
