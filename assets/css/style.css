@@ -6,7 +6,7 @@
 /* Top Header Section Start */
 
 header{
-    width: 100vw;
+    width: 100%;
     height: 40px;
     padding: 0px 5px;
     color: #fff;
@@ -120,3 +120,46 @@ margin-top: 5px;
     padding: 0px 10px;
 }
 /* About us Section End */
+
+/* My Service Section Start */
+
+.service{
+    width: 100%;
+    height: auto;
+    padding: 0px 100px;
+}
+.service .upper, .service .lower{
+    display: flex;
+    align-items: center;
+}
+.service .content,
+.service .image{
+    width: 50%;
+}
+.service .image img{
+    width:530px;
+    height: 450px;
+}
+.service .content h3{
+    font-size: 30px;
+}.service .content p{
+    font-size: 20px;
+}
+/* /My Service Section End */
+
+/* Footer Section Start */
+footer{
+    width: 100%;
+    height:auto;
+    text-align: center;
+    padding:15px 100px;
+    background: #022D7C;
+    color: #fff;
+}
+footer h4{
+    font-size: 22px;
+}
+footer h4 span{
+    font-size: 18px;
+}
+/* /Footer Section End */
